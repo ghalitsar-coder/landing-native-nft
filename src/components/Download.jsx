@@ -15,7 +15,7 @@ const Download = () => {
           <p className={`${styles.pText} ${styles.blackText} `}>
             Get The Full source code on GitHub
           </p>
-          <button onClick={() => window.open(`https://github.com/ghalitsar-coder`)} className={styles.btnPrimary}>Source Code</button>
+          <button onClick={() => window.open(`https://github.com/ghalitsar-coder/landing-native-nft`)} className={styles.btnPrimary}>Source Code</button>
           <div className={styles.flexCenter}>
             <img
               src={assets.scene}

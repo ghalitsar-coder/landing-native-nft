@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Download, Features, SectionWrapper } from "./components";
 import assets from "./assets";
+import styles from "./styles/Global";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,6 +40,19 @@ function App() {
       />
 
       <Download />
+
+      <div className="h-[400px]">
+        <div className="banner04 flex items-center justify-center flex-col">
+          <p className={`${styles.pText} text-white`}>Made with love by</p>{" "}
+          <span className="font-semibold text-2xl text-white">
+            {" "}
+            <a href="https://ghalitsardev.netlify.app/" target="_blank">
+              {" "}
+              Ghalitsar{" "}
+            </a>
+          </span>
+        </div>
+      </div>
     </>
   );
 }
